@@ -1,7 +1,37 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soul Link Nuzlocke Overlay</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #000;
+    }
+
+    .overlay-container {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      background: url('/mnt/data/overlay_v1_.png') no-repeat center center;
+      background-size: cover;
+    }
+
+    /* Beispiel für Positionierung von Inhalten */
+    .video-frame-left,
+    .video-frame-right {
+      position: absolute;
+      width: 854px;
+      heigh
