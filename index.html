@@ -1,32 +1,30 @@
 <!DOCTYPE html>
-<html lang="de">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Soul Link Nuzlocke Overlay</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
 
-    body, html {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #000;
-    }
+.bg {
+  /* The image used */
+  background-image: url("overlay_v1_.png");
 
-    .overlay-container {
-      position: relative;
-      width: 1920px;
-      height: 1080px;
-      background: url('overlay_v1_.png') no-repeat center center;
-      background-size: cover;
-    }
+  /* Full height */
+  height: 100%; 
 
-    
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<div class="bg"></div>
+
+</body>
+</html>
